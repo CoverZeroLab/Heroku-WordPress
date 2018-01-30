@@ -19,6 +19,7 @@
  */
 
 // Home
+define('RELOCATE',true);
 define('WP_HOME', 'https://tracker-app.tooltags.co');
 define('WP_SITEURL', 'https://tracker-app.tooltags.co');
 
