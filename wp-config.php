@@ -66,7 +66,7 @@ define('SECURE_AUTH_SALT', $_ENV["SECURE_AUTH_SALT"]);
 define('LOGGED_IN_SALT',   $_ENV["LOGGED_IN_SALT"]);
 define('NONCE_SALT',       $_ENV["NONCE_SALT"]);
 
-define('FORCE_SSL_ADMIN', true);
+/** define('FORCE_SSL_ADMIN', true); */
 
 /**#@-*/
 
