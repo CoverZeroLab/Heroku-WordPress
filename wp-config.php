@@ -18,6 +18,10 @@
  * @package WordPress
  */
 
+// Home
+define('WP_HOME', 'https://tracker-app.tooltags.co');
+define('WP_SITEURL', 'https://tracker-app.tooltags.co');
+
 // Sendgrid settings - Read in the sendgrid auth from the config //
 define('SENDGRID_USERNAME', $_ENV["SENDGRID_USERNAME"]);
 define('SENDGRID_PASSWORD', $_ENV["SENDGRID_PASSWORD"]); 
